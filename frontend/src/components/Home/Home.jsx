@@ -26,7 +26,7 @@ function Home() {
             
             <div className="relative z-50 ml-8 -mt-[73px]">
                 <img src={startuphub}
-                className="w-full h-[354px] w-[520px]"
+                className="w-full h-[354px] w-[525px]"
                 />
             </div>
         <div className="relative z-0" style={{position: 'absolute', top: 0, right:0 }}>
