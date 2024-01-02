@@ -26,12 +26,12 @@ function Home() {
             
             <div className="relative z-50 ml-8 -mt-[73px]">
                 <img src={startuphub}
-                className="w-full h-[354px] w-[525px]"
+                className="h-[500px] w-[617px]"
                 />
             </div>
         <div className="relative z-0" style={{position: 'absolute', top: 0, right:0 }}>
                 <img src={rocket} 
-                className="h-[354px] w-[700px] "/>
+                className=" h-[515px] w-[900px]"/>
             </div>
         </div>
         </>
