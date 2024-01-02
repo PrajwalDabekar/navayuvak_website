@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 function Header(){
 return(
     <div className=" flex justify-between items-center p-4">
-        <div>
+        <div><Link to='/'>
            <img src={logo} 
            className="h-12 ml-2"
-           /> 
+           /></Link> 
         </div>
         <div className="flex justify-center items-center">
         <Link to="/"
