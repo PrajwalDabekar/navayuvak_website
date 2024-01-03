@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import contactLogo from '../../assets/contact_img.png'
 import mailIcn from '../../assets/email.png'
 import callIcn from '../../assets/call.png'
 
 function Contact() {
+  const [name , setName] = useState()
+  const [number , setNumber] = useState()
+  const [email , setEmail] = useState()
+  const [desc , setDesc] = useState()
+
     return(
         <section>
   <div class="grid grid-cols-1 lg:grid-cols-2">
@@ -43,6 +48,8 @@ function Contact() {
                   className="flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
                   type="text"
                   placeholder="Name"
+                  value={name}
+                  onChange={(e)=> setName(e.target.value)}
                   required
                 />
               </div>
@@ -57,6 +64,8 @@ function Contact() {
                   class="flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
                   type="number"
                   placeholder="Number"
+                  value={number}
+                  onChange={(e)=> setNumber(e.target.value)}
                   required
                 />
               </div>
@@ -71,6 +80,8 @@ function Contact() {
                   className="flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
                   type="email"
                   placeholder="Email"
+                  value={email}
+                  onChange={(e)=> setEmail(e.target.value)}
                   required
                 />
               </div>
@@ -87,14 +98,16 @@ function Contact() {
                 <textarea cols={48} rows={5}
                 className="rounded-md border w-full border-gray-300 px-2 py-1"
                 placeholder="Description"
+                value={desc}
+                onChange={(e)=> setDesc(e.target.value)}
                 required
                 />
               </div>
             </div>
             <div>
               <button
-                type="button"
-                class="inline-flex w-full items-center justify-center rounded-md bg-black px-3.5 py-2.5 font-semibold leading-7 text-white hover:bg-black/80"
+              
+                className="inline-flex w-full items-center justify-center rounded-md bg-black px-3.5 py-2.5 font-semibold leading-7 text-white hover:bg-black/80"
               >
                 Submit{" "}
                 <svg
