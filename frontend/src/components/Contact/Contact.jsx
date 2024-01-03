@@ -8,11 +8,11 @@ function Contact() {
         <section>
   <div class="grid grid-cols-1 lg:grid-cols-2">
     <div class="relative px-1 pb-10 pt-[200px] sm:px-6 sm:pb-16 md:justify-center lg:px-8 lg:pb-24">
-      <div>
-        <img src={contactLogo} className="h-[160px] w-[570px] ml-[83px] mb-12 " />
+      <div className="flex justify-center items-center">
+        <img src={contactLogo} className="h-[160px] w-[570px] mb-12 " />
         </div>
-        <div className="flex justify-center items-center ml-12">
-        <div className="flex p-2 m-2">
+        <div className="flex justify-center items-center ">
+        <div className="flex p-2 ">
             <div><img src={mailIcn} 
             className="h-4 w-4 m-2"
             /></div>
@@ -31,7 +31,7 @@ function Contact() {
         <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl">
           Feel free to Contact Us
         </h2>
-        <form action="#" method="POST" class="mt-8">
+        <form method="POST" class="mt-8">
           <div class="space-y-5">
           <div>
               <label for="" class="text-base font-medium text-gray-900">
@@ -40,14 +40,15 @@ function Contact() {
               </label>
               <div class="mt-2">
                 <input
-                  class="flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
+                  className="flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
                   type="text"
                   placeholder="Name"
+                  required
                 />
               </div>
             </div>
             <div>
-              <label for="" class="text-base font-medium text-gray-900">
+              <label for="" className="text-base font-medium text-gray-900">
                 {" "}
                 Phone Number:{" "}
               </label>
@@ -56,19 +57,21 @@ function Contact() {
                   class="flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
                   type="number"
                   placeholder="Number"
+                  required
                 />
               </div>
             </div>
             <div>
-              <label for="" class="text-base font-medium text-gray-900">
+              <label for="" className="text-base font-medium text-gray-900">
                 {" "}
                 Email address:{" "}
               </label>
               <div class="mt-2">
                 <input
-                  class="flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
+                  className="flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
                   type="email"
                   placeholder="Email"
+                  required
                 />
               </div>
             </div>
@@ -82,8 +85,10 @@ function Contact() {
               </div>
               <div class="mt-2">
                 <textarea cols={48} rows={5}
-                className="rounded-md border border-gray-300 px-2 py-1"
-                placeholder="Description"/>
+                className="rounded-md border w-full border-gray-300 px-2 py-1"
+                placeholder="Description"
+                required
+                />
               </div>
             </div>
             <div>

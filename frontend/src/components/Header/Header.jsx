@@ -24,9 +24,9 @@ return(
         >Activities</Link>
         </div>
         <div>
-            <button
+            <Link to='/sed'
             className="bg-black font-serif italic text-white p-2 rounded-md w-[150px] hover:underline underline-offset-[3px]"
-            >SED.portal</button>
+            >SED.portal</Link>
         </div>
     </div>
 )
