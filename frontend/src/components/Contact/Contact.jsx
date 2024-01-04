@@ -96,7 +96,8 @@ function Contact() {
               </div>
               <div class="mt-2">
                 <textarea cols={48} rows={5}
-                className="rounded-md border w-full border-gray-300 px-2 py-1"
+                className="rounded-md border w-full border-gray-300 px-2 py-1
+                focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
                 placeholder="Description"
                 value={desc}
                 onChange={(e)=> setDesc(e.target.value)}
@@ -107,7 +108,7 @@ function Contact() {
             <div>
               <button
               
-                className="inline-flex w-full items-center justify-center rounded-md bg-black px-3.5 py-2.5 font-semibold leading-7 text-white hover:bg-black/80"
+                className="inline-flex w-full items-center justify-center rounded-md bg-[#33c2e8] px-3.5 py-2.5 font-semibold leading-7 text-white hover:bg-[#33c2e8]/80"
               >
                 Submit{" "}
                 <svg
