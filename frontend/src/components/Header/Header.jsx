@@ -3,7 +3,7 @@ import logo from '../../assets/logo.png'
 import { Link } from "react-router-dom";
 function Header(){
 return(
-    <div>
+    <div className="hidden sm:block">
     <div className=" flex justify-between items-center p-4">
         <div><Link to='/'>
            <img src={logo} 
@@ -16,17 +16,17 @@ return(
         >Home</Link>
         <Link to="/about"
         className="px-6 font-serif font-medium text-lg hover:underline  decoration-[2.5px] decoration-[#33c2e8] underline-offset-[3px] active:underline  decoration-[2.5px] decoration-[#33c2e8] underline-offset-[3px]"
-        >About Us</Link>
+        >About</Link>
         <Link to="/contact"
         className="px-6 font-serif font-medium text-lg hover:underline  decoration-[2.5px] decoration-[#33c2e8] underline-offset-[3px]"
-        >Contact Us</Link>
+        >Contact</Link>
         <Link to="/activities"
         className="px-6 font-serif font-medium text-lg hover:underline  decoration-[2.5px] decoration-[#33c2e8] underline-offset-[3px]"
         >Activities</Link>
         </div>
         <div>
             <Link to='/sed'
-            className="bg-black font-serif italic text-white p-2 rounded-md w-[150px] hover:underline underline-offset-[3px]"
+            className="bg-[#080e3f] font-serif italic text-white p-2 px-4 rounded-md w-[150px] hover:underline underline-offset-[3px]"
             >SED.portal</Link>
         </div>
     </div>

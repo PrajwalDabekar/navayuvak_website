@@ -3,7 +3,7 @@ import React from "react";
 function Activities(){
     return(
         <>
-        <h1>This is Activities</h1>
+        <div className="h-screen text-4xl">This is Activities</div>
         </>
     )
 }

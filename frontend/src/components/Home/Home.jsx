@@ -1,15 +1,17 @@
 import React from "react";
 import medal from '../../assets/karamveer-chakra.png'
 import startuphub from '../../assets/startuphub.png'
-import rocket from '../../assets/rocket_black.png'
+import rocket from '../../assets/home_rocket.png'
 import aboutImg from '../../assets/about1.png'
 import aboutAward from '../../assets/about2.png'
 import chart from '../../assets/chart.png'
+import { Link } from "react-router-dom";
+import '../Home/style.css'
 function Home() {
     return(
-        <div className="flex flex-col">
-        <section>
-        <div className="flex justify-end p-2 mr-12">
+        <div className="flex flex-col ">
+        <section className=" static">
+        <div className="flex justify-end p-2 mr-12 static">
             <div className="m-2 mr-4 font-serif">
           <div>-awarded with <span className="font-bold text-xl font-serif italic">KARAMVEER CHAKRA</span></div>
           <div className="ml-[125px]">instituted by <span className="text-red-600 font-semibold font-serif">iCONGO </span>and <span className="text-blue-800 font-semibold font-serif">UN</span></div>
@@ -20,34 +22,39 @@ function Home() {
             />
           </div>
         </div>
-        <div className="flex justify-between relative">
-            {/* <div className="ml-11 space-y-2">
-                <div className="text-6xl font-bold">INDIA</div>
-                <div className="text-6xl font-bold">LAUNCHPAD</div>
-                <div className="text-5xl font-serif">THE START-UP HUB</div>
-                <div className="text-2xl font-semibold font-serif">IDEAS|INNOVATION|ENERGY</div>
-            </div> */}
+        <div className="flex justify-between ">
+            <div className="ml-11 space-y-2">
+                <div className="text-7xl font-bold">INDIA</div>
+                <div className="text-7xl font-bold text-[#0C1650]">LAUNCHPAD</div>
+                <div className="text-6xl font-serif">THE START-UP HUB</div>
+                <div className="text-3xl font-semibold font-serif">IDEAS|INNOVATION|ENERGY</div>
+            </div>
             
-            <div className="relative z-50 ml-8 -mt-[73px]">
+            {/* <div className=" ml-8 w-1/2">
                 <img src={startuphub}
-                className="h-[500px] w-[617px]"
+                className="w-full object-cover"
                 // className="h-screen w-full"
                 />
-            </div>
-        <div className="relative z-0" style={{position: 'absolute', top: 0, right:0 }}>
+            </div> */}
+            {/* <div className="bottom-0 right-0 w-1/2" >
                 <img src={rocket} 
-                className=" h-[515px] w-[900px]"/>
+                className="w-full object-cover"/>
+            </div> */}
+            <div className="bottom-0 right-0 w-1/2 " >
+            <div className="bottom-0 right-0 w-1/2 " >
+                <img src="https://i.pinimg.com/originals/a7/12/3a/a7123a124ba35c74c421e1678e2bb677.gif" 
+                className="w-full object-cover "/>
             </div>
         </div>
         </section>
-        <section className="flex flex-col bg-[#EBEBEB] mt-[90px] p-12">
-            <div className="font-bold text-5xl pb-8 ml-5">
+        <section className="flex bg-[#212D74] text-white p-12 font-serif sm:flex-col">
+            <div className="font-bold text-4xl pb-8 ml-5">
                 ABOUT US:
             </div>
             <div className="flex justify-center items-center ">
-                <div className="m-12">
+                <div className="h-full w-full">
                     <img src={aboutImg}
-                    className="h-full w-screen rounded-3xl"
+                    className="size-full rounded-3xl"
                     />
                 </div>
                 <div className="p-9 text-3xl m-12 text-justify">
@@ -64,9 +71,16 @@ function Home() {
                     />
                 </div>
             </div>
+            <div className="flex justify-end items-center ">
+                <div className="mr-10 rounded-md bg-[#080e3f] px-3.5 py-2.5 font-semibold leading-7 text-white hover:bg-[#080e3f]/80 hover:underline">
+                    <Link to='/about'>
+                    View More
+                    </Link>
+                </div>
+            </div>
         </section>
         <section>
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center space-x-12">
                 <div className="text-5xl p-4 w-[500px] font-serif font-semibold">
                     The Place For All Of Your Start-Up Needs
                 </div>
