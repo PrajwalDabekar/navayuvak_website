@@ -41,11 +41,12 @@ function Home() {
                 className="w-full object-cover"/>
             </div> */}
             <div className="bottom-0 right-0 w-1/2 " >
-            <div className="bottom-0 right-0 w-1/2 " >
+            
                 <img src="https://i.pinimg.com/originals/a7/12/3a/a7123a124ba35c74c421e1678e2bb677.gif" 
                 className="w-full object-cover "/>
             </div>
         </div>
+        
         </section>
         <section className="flex bg-[#212D74] text-white p-12 font-serif sm:flex-col">
             <div className="font-bold text-4xl pb-8 ml-5">
