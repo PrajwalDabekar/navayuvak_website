@@ -16,7 +16,7 @@ function Contact() {
       <div className="flex justify-center items-center">
         <img src={contactLogo} className="h-[160px] w-[570px] mb-12 " />
         </div>
-        <div className="flex justify-center items-center ">
+        <div className="flex flex-col sm:flex-row justify-center items-center ">
         <div className="flex p-2 ">
             <div><img src={mailIcn} 
             className="h-4 w-4 m-2"
@@ -33,7 +33,7 @@ function Contact() {
     </div>
     <div class="flex items-center justify-center px-4 py-10 sm:px-6 sm:py-16 lg:px-8 lg:py-24">
       <div class="xl:mx-auto xl:w-full xl:max-w-sm 2xl:max-w-md">
-        <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl">
+        <h2 class="text-2xl font-bold leading-tight text-black sm:text-4xl">
           Feel free to Contact Us
         </h2>
         <form method="POST" class="mt-8">

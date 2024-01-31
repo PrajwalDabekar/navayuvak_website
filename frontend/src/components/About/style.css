@@ -1,0 +1,16 @@
+.card-body{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    background: #15272db0;
+    backdrop-filter: blur(3px);
+    transition: 1s;
+
+}
+.card:hover .card-body{
+    right:0;
+}
+
+ 

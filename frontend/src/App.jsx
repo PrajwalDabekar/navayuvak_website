@@ -6,11 +6,13 @@ import Footer from './components/Footer/Footer';
 function LayOut() {
 
   return (
-    <>
+    <div className='relative'>
+    <div className='sticky top-0 z-50 border-y'>
     <Header/>
+    </div>
     <Outlet/>
     <Footer/>
-    </>
+    </div>
     
   )
 }
