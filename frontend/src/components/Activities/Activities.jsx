@@ -33,7 +33,7 @@ function Activities(){
             </div>
         </div>
         <div className="h-full sm:h-full pb-4 border-y flex flex-col justify-center">
-                <div className="flex flex-col-reverse sm:flex-row justify-center items-center">
+                <div className="flex flex-col-reverse sm:flex-row justify-center items-center shadow-xl m-12 rounded-lg">
                     <div className="w-full px-6 sm:w-1/2 text-justify mx-2"><div>
 For the first time in Mumbai, the Government, Educationists, Students,
 Investors & Startups came under one roof to celebrate the success of the Mumbai Startup Ecosystem. Mumbai Startup Fest '18 was organised with a vision to promote and celebrate the entrepreneurial spirit of Mumbai. It aimed to provide the start-ups and budding entrepreneurs a platform to showcase their potential and discuss roadblocks. It is our mission and goal to create a budding entrepreneurial ecosystem in Mumbai and foster the spirit of the same in the long run.</div>
@@ -45,7 +45,7 @@ Investors & Startups came under one roof to celebrate the success of the Mumbai 
                         />
                     </div>
                 </div>
-                <div className="flex flex-col sm:flex-row justify-center items-center">
+                <div className="flex flex-col sm:flex-row justify-center items-center shadow-xl m-12 rounded-lg">
                     <div className="p-4">
                         <img
                         src={pic2}
@@ -74,7 +74,7 @@ Investors & Startups came under one roof to celebrate the success of the Mumbai 
             </div>
         </div>
         <div className="h-full sm:h-full pb-4 border-y flex flex-col justify-center">
-                <div className="flex flex-col-reverse sm:flex-row justify-center items-center">
+                <div className="flex flex-col-reverse sm:flex-row justify-center items-center shadow-xl m-12 rounded-lg">
                     <div className="w-full px-6 sm:w-1/2 text-justify mx-2"><div>
 For the first time in Mumbai, the Government, Educationists, Students,
 Investors & Startups came under one roof to celebrate the success of the Mumbai Startup Ecosystem. Mumbai Startup Fest '18 was organised with a vision to promote and celebrate the entrepreneurial spirit of Mumbai. It aimed to provide the start-ups and budding entrepreneurs a platform to showcase their potential and discuss roadblocks. It is our mission and goal to create a budding entrepreneurial ecosystem in Mumbai and foster the spirit of the same in the long run.</div>
@@ -86,7 +86,7 @@ Investors & Startups came under one roof to celebrate the success of the Mumbai 
                         />
                     </div>
                 </div>
-                <div className="flex flex-col sm:flex-row justify-center items-center">
+                <div className="flex flex-col sm:flex-row justify-center items-center shadow-xl m-12 rounded-lg">
                     <div className="p-4">
                         <img
                         src={pic2}
@@ -115,7 +115,7 @@ Investors & Startups came under one roof to celebrate the success of the Mumbai 
             </div>
         </div>
         <div className="h-full sm:h-full pb-4 border-y flex flex-col justify-center">
-                <div className="flex flex-col-reverse sm:flex-row justify-center items-center">
+                <div className="flex flex-col-reverse sm:flex-row justify-center items-center shadow-xl m-12 rounded-lg">
                     <div className="w-full px-6 sm:w-1/2 text-justify mx-2"><div>
 For the first time in Mumbai, the Government, Educationists, Students,
 Investors & Startups came under one roof to celebrate the success of the Mumbai Startup Ecosystem. Mumbai Startup Fest '18 was organised with a vision to promote and celebrate the entrepreneurial spirit of Mumbai. It aimed to provide the start-ups and budding entrepreneurs a platform to showcase their potential and discuss roadblocks. It is our mission and goal to create a budding entrepreneurial ecosystem in Mumbai and foster the spirit of the same in the long run.</div>
@@ -127,7 +127,7 @@ Investors & Startups came under one roof to celebrate the success of the Mumbai 
                         />
                     </div>
                 </div>
-                <div className="flex flex-col sm:flex-row justify-center items-center">
+                <div className="flex flex-col sm:flex-row justify-center items-center shadow-xl m-12 rounded-lg">
                     <div className="p-4">
                         <img
                         src={pic2}
@@ -147,37 +147,37 @@ Investors & Startups came under one roof to celebrate the success of the Mumbai 
             <div className="text-xl font-bold px-2 sm:font-bold text-2xl p-4 px-8"><span className="text-[#33c2e8]">NavaYuvak</span> Partners:</div>
             <div>
             <Marquee gradient gradientWidth='30px'>
-                <div>
+                <div className="shadow-xl m-12 rounded-lg">
                     <img
                     src={img1}
                     />
                 </div>
-                <div>
+                <div className="shadow-xl m-12 rounded-lg">
                 <img
                     src={img2}
                     />
                 </div>
-                <div>
+                <div className="shadow-xl m-12 rounded-lg">
                 <img
                     src={img3}
                     />
                 </div>
-                <div>
+                <div className="shadow-xl m-12 rounded-lg">
                 <img
                     src={img4}
                     />
                 </div>
-                <div>
+                <div className="shadow-xl m-12 rounded-lg">
                 <img
                     src={img5}
                     />
                 </div>
-                <div>
+                <div className="shadow-xl m-12 rounded-lg">
                 <img
                     src={img6}
                     />
                 </div>
-                <div>
+                <div className="shadow-xl m-12 rounded-xl">
                 <img
                     src={img7}
                     />

@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 function Header(){
     const [isActive , setIsActive] = useState(false)
     const handleClick = ()=>{
-        // console.log(isActive)
+        console.log(isActive)
         setIsActive(true)
-        //console.log(isActive)
+        console.log(isActive)
     }
     const makeFalse = ()=>{
         setIsActive(false)
@@ -47,7 +47,7 @@ return(
         </div>
     </div>
     <div 
-    className={` flex flex-col text-center bg-[#080e3f] text-white font-semibold translate-x-full ease-in ${isActive ? 'translate-x-0' : 'hidden'}`}>
+    className={`flex flex-col text-center bg-[#080e3f] text-white font-semibold translate-x-full ease-in ${isActive ? 'translate-x-0' : 'hidden'}`}>
         <div className="flex justify-end mx-3 mt-2">
         <button
         className="py-1 px-2 border rounded-md border-2"

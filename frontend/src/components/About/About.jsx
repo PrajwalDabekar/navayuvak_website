@@ -10,12 +10,14 @@ import Card from "../Card/Card";
 function About() {
     return(
         <div className="border-y font-serif italic">
-            <div className='h-full sm:h-screen w-full flex flex-col justify-evenly space-y-10 text-white  p-10 justify-start item-center bg-cover bg-no-repeat  '
-        style={{backgroundImage:`url(${about_main_bg})`,
-         }}>
+            <div className='h-full sm:h-screen w-full flex flex-col justify-evenly space-y-10 relative text-white justify-start item-center bg-cover bg-no-repeat'>
+        {/* // style={{backgroundImage:`url(${about_main_bg})`, */}
+        {/* //  }}> */}
             {/* <div className="text-4xl">
                 About Us:
             </div> */}
+            <div className="z-10 absolute"><img src={about_main_bg} className="w-screen" /></div>
+            <div className="z-40 absolute space-y-40 px-6">
             <div className="w-full text-wrap text-2xl sm:text-6xl flex flex-col space-y-2">
             <div>Shaping the Future of</div> 
             <div className=""><span className="text-[#33c2e8] ">Entrepreneurship</span> Education</div>
@@ -23,6 +25,7 @@ function About() {
             </div>
             <div className="w-full font-bold sm:w-1/2 text-justify text-md">
             At Navayuvak Entrepreneurs, we are driven by a powerful vision — to create and develop India's Entrepreneurship Education Ecosystem. As pioneers in working at the grassroots level of the startup ecosystem, our goal is to evolve into a comprehensive one-stop hub for startups.
+            </div>
             </div>
         </div>
         <div className="flex justify-start h-full items-center">

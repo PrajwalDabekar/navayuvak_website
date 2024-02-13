@@ -73,7 +73,7 @@ function Home() {
                 </div>
             </div> */}
             <div className="h-full sm:h-full pb-4 flex flex-col justify-center">
-                <div className="flex flex-col-reverse sm:flex-row justify-center items-center">
+                <div className="flex flex-col-reverse sm:flex-row justify-center items-center shadow-xl m-12 rounded-lg bg-white text-black">
                     <div className="w-full px-6 sm:w-1/2 text-justify mx-2"><div>
                     The  vision of Navayuvak Entrepreneurs is to create & develop India's Entrepreneurship Education Ecosystem . Navayuvak Entrepreneurs, the pioneers in working for the startup ecosystem at the ground level, aim to become a one stop hub for startups</div>
                     </div>
@@ -84,7 +84,7 @@ function Home() {
                         />
                     </div>
                 </div>
-                <div className="flex flex-col sm:flex-row justify-center items-center">
+                <div className="flex flex-col sm:flex-row justify-center items-center shadow-xl m-12 rounded-lg bg-white text-black">
                     <div className="p-4">
                         <img
                         src={aboutAward}
