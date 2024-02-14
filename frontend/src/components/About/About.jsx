@@ -10,14 +10,14 @@ import Card from "../Card/Card";
 function About() {
     return(
         <div className="border-y font-serif italic">
-            <div className='h-full sm:h-screen w-full flex flex-col justify-evenly space-y-10 relative text-white justify-start item-center bg-cover bg-no-repeat'>
-        {/* // style={{backgroundImage:`url(${about_main_bg})`, */}
-        {/* //  }}> */}
+            <div className='h-full sm:h-screen w-full flex flex-col justify-evenly space-y-10 relative text-white justify-start item-center bg-cover bg-no-repeat'
+         style={{backgroundImage:`url(${about_main_bg})`,
+          }}>
             {/* <div className="text-4xl">
                 About Us:
-            </div> */}
-            <div className="z-10 absolute"><img src={about_main_bg} className="w-screen" /></div>
-            <div className="z-40 absolute space-y-40 px-6">
+            </div>
+            {/* <div className="z-10 absolute"><img src={about_main_bg} className="w-screen h-full" /></div> */}
+            <div className="space-y-40 py-4 px-6">
             <div className="w-full text-wrap text-2xl sm:text-6xl flex flex-col space-y-2">
             <div>Shaping the Future of</div> 
             <div className=""><span className="text-[#33c2e8] ">Entrepreneurship</span> Education</div>
@@ -34,7 +34,7 @@ function About() {
            > Our Vision:</div>
         </div>
         <div className="flex flex-col-reverse justify-center sm:flex-row items-center w-full  ">
-        <div className="w-full flex-col justify-center sm:w-1/2">
+        <div className="w-full flex-col justify-center shadow-xl m-12 rounded-xl sm:w-1/2">
             <div className="flex px-12 py-4 sm:px-12 flex-col">
             <div className="text-2xl sm:text-4xl font-semibold">Creating</div>
             <div className="text-4xl sm:text-7xl font-bold text-[#33c2e8]">Tomorrow's</div><span className="text-2xl sm:text-4xl font-semibold">Entrepreneurs</span><span className="text-4xl sm:text-7xl font-bold text-[#33c2e8]">Today!</span>
@@ -54,7 +54,7 @@ function About() {
                 <img src={about_main_3}
             className=" w-full object-cover"/>
             </div>
-            <div className="w-full h-full py-3 sm:w-1/2 text-center sm:h-full sm:p-8 ">
+            <div className="w-full h-full py-3 shadow-xl m-12 rounded-xl sm:w-1/2 text-center sm:h-full sm:p-8 ">
                 <div className="text-3xl sm:text-5xl sm:space-y-12">
                     A <div className="sm:block text-7xl text-[#33c2e8]">ONE-STOP</div>HUB 
                 </div>
@@ -64,7 +64,7 @@ function About() {
             </div>
         </div>
         <div className="h-full flex flex-col p-2 sm:h-full sm:flex-row p-8 border-y ">
-            <div className="w-full space-y-4 sm:w-2/3 sm:space-y-28">
+            <div className="w-full space-y-4  sm:w-2/3 sm:space-y-28">
                 <div className="flex p-4">
                     <div className="space-y-1 sm:space-y-4">
                         <div className="text-xl sm:text-3xl">awarded with</div>

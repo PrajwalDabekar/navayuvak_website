@@ -10,7 +10,7 @@ import '../Home/style.css'
 function Home() {
     return(
         <div className="flex flex-col ">
-        <section className="h-full sm:flex flex-col">
+        <section className="h-full sm:flex flex-col py-4">
         <div className="flex justify-end p-2 mr-12 static">
             <div className="m-2 mr-4 font-serif">
           <div>-awarded with <span className="text-lg font-semibold sm:font-bold text-xl font-serif italic">KARAMVEER CHAKRA</span></div>
@@ -48,7 +48,7 @@ function Home() {
         </div>
         
         </section>
-        <section className="p-4 sm:flex bg-[#212D74] text-white p-12 font-serif sm:flex-col">
+        <section className="p-4 py-4 sm:flex bg-[#212D74] text-white p-12 font-serif sm:flex-col">
             <div className="font-bold text-xl ml-0 sm:font-bold text-4xl pb-8 ml-5">
                 ABOUT US:
             </div>
@@ -106,13 +106,13 @@ function Home() {
             </div>
         </section>
         <section>
-            <div className="flex flex-col justify-center sm:flex-row justify-center items-center space-x-12">
-                <div className="font-xl w-full sm:text-5xl p-4 w-[500px] font-serif font-semibold">
+            <div className="flex flex-col justify-center text-center sm:justify-center items-center">
+                <div className="font-xl w-full sm:text-5xl p-4 font-serif font-semibold">
                     The Place For All Of Your Start-Up Needs
                 </div>
-                <div className="mx-1 sm:m-12">
+                <div className="mx-1 py-4 mx-12 sm:m-12">
                     <img src={chart} 
-                    className="w-full  sm:h-full w-[500px]" />
+                    className="w-full sm:h-full w-[510px]" />
                 </div>
             </div>
         </section>
