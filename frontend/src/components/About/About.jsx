@@ -34,7 +34,7 @@ function About() {
            > Our Vision:</div>
         </div>
         <div className="flex flex-col-reverse justify-center sm:flex-row items-center w-full  ">
-        <div className="w-full flex-col justify-center shadow-xl m-12 rounded-xl sm:w-1/2">
+        <div className="w-full flex-col justify-center sm:w-1/2 sm:shadow-xl m-12 rounded-xl">
             <div className="flex px-12 py-4 sm:px-12 flex-col">
             <div className="text-2xl sm:text-4xl font-semibold">Creating</div>
             <div className="text-4xl sm:text-7xl font-bold text-[#33c2e8]">Tomorrow's</div><span className="text-2xl sm:text-4xl font-semibold">Entrepreneurs</span><span className="text-4xl sm:text-7xl font-bold text-[#33c2e8]">Today!</span>
@@ -54,11 +54,11 @@ function About() {
                 <img src={about_main_3}
             className=" w-full object-cover"/>
             </div>
-            <div className="w-full h-full py-3 shadow-xl m-12 rounded-xl sm:w-1/2 text-center sm:h-full sm:p-8 ">
+            <div className="w-full h-full py-3 sm:w-1/2 text-center sm:shadow-xl m-12 rounded-xl h-full p-8 ">
                 <div className="text-3xl sm:text-5xl sm:space-y-12">
                     A <div className="sm:block text-7xl text-[#33c2e8]">ONE-STOP</div>HUB 
                 </div>
-                <div className="sm:font-semibold text-justify mt-12 px-12 text-xl">
+                <div className="sm:font-semibold text-justify mt-12 px-6 text-xl">
                 Navayuvak Entrepreneurs offers support, guidance, and resources for startups at all stages, including educational programs and mentorship networks, to help ensure success.
                 </div>
             </div>
